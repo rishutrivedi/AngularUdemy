@@ -33,7 +33,7 @@ export class ProjectsComponent implements OnInit
       (response: Project[]) =>
       {
         this.projects = response;
-        this.showLoading = false;
+        this.showLoading =false;
       }
     );
 
